@@ -1,0 +1,63 @@
+.shop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  background-color: rgb(73, 39, 67);
+  align-items: center;
+  height: 10rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+  color: rgb(176, 163, 180);
+}
+.displaywear {
+  background-color: rgb(148, 110, 136);
+  height: 65vh;
+  display: flex;
+  flex-grow: 1fr;
+  justify-content: flex-end;
+}
+.readytowear-img {
+  width: 60rem;
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+.cloth {
+  color: rgb(73, 39, 67);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.money {
+  color: rgb(243, 213, 243);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.sign {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.fabric-img {
+  width: 40rem;
+  display: flex;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+}
+.price {
+  color: rgb(243, 213, 243);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+// // padding: 2rem;
+// // gap: 2rem;
+// align-items: center;
+// justify-content: center;
+// margin-left: 70rem;
+// margin-bottom: 90rem;
+
+//   background-color: blue;

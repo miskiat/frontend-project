@@ -1,0 +1,53 @@
+.aboutus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(73, 39, 67);
+  align-items: center;
+  height: 10rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+  color: rgb(176, 163, 180);
+}
+.introduction {
+  background-color: rgb(148, 110, 136);
+  color: white;
+  font-size: x-large;
+}
+.summary {
+  font-size: small;
+  color: white;
+  font-style: oblique;
+  max-width: 20rem;
+  font-family: sans-serif;
+}
+
+.about-miskiat {
+  width: 30vw;
+  object-fit: contain;
+  filter: grayscale(500);
+}
+.about-miskiat:hover {
+  cursor: pointer;
+  filter: grayscale(0);
+}
+
+.img-abouts {
+  display: flex;
+  background-color: rgb(148, 110, 136);
+  height: 100%;
+  justify-content: center;
+  // align-items: flex-start;
+  // padding-top: 10rem;
+  gap: 2rem;
+  text-align: center;
+}
+.meet {
+  display: flex;
+  background-color: rgb(148, 110, 136);
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  // align-items: center;
+  height: 100%;
+}

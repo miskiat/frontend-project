@@ -1,0 +1,35 @@
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(73, 39, 67);
+  align-items: center;
+  //   height: 10rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+  color: rgb(176, 163, 180);
+}
+.service {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(148, 110, 136);
+  height: 65vh;
+}
+
+.img-service {
+  align-items: center;
+  margin-top: 3rem;
+  height: 30rem;
+  filter: grayscale(120);
+}
+.img-service:hover {
+  cursor: pointer;
+  filter: grayscale(0);
+}
+.segment {
+  text-align: center;
+}
+.segment:hover {
+  cursor: pointer;
+  color: rgb(201, 192, 202);
+}

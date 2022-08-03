@@ -1,0 +1,25 @@
+.mis-b {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/machinee.jpg");
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 4rem;
+  height: 100vh;
+}
+.mis {
+  background-color: rgb(2, 2, 2);
+  padding: 1rem;
+  color: white;
+  // text-align: center;
+  font-size: x-large;
+}
+.mis:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+// .miss {
+// }

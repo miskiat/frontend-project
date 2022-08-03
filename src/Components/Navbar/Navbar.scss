@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  background-color: rgb(148, 110, 136);
+  height: 10vh;
+  font-weight: 400;
+  font-size: x-large;
+  font-style: normal;
+  font-family: "Petita Medium";
+  color: rgb(201, 192, 202);
+  justify-content: space-between;
+  padding: 3rem;
+}
+.nav :hover {
+  cursor: pointer;
+  color: rgb(58, 16, 40);
+}
+.thelook {
+  font-size: xx-large;
+}

@@ -1,0 +1,38 @@
+.left {
+  text-align: center;
+}
+.school {
+  display: flex;
+  align-items: center;
+  height: 60vh;
+  justify-content: center;
+  gap: 2rem;
+}
+.academy {
+  font-weight: lighter;
+  font-size: small;
+  color: rgb(184, 181, 181);
+}
+.jacket {
+  width: 20vw;
+  object-fit: contain;
+}
+.generation {
+  font-size: xx-large;
+}
+.theb {
+  font-weight: lighter;
+}
+.theacademy {
+  background-color: rgb(2, 2, 2);
+  height: 3rem;
+  width: 8rem;
+  color: white;
+  margin-top: 3rem;
+  font-weight: lighter;
+}
+.theacademy:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}

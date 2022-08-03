@@ -1,0 +1,34 @@
+.secondpage {
+  display: flex;
+  align-items: center;
+  height: 60vh;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.intro {
+  text-align: center;
+}
+.aboutt {
+  font-weight: lighter;
+  font-size: small;
+}
+.mko {
+  filter: grayscale(500);
+}
+.mko:hover {
+  filter: grayscale(0);
+}
+.button {
+  background-color: rgb(2, 2, 2);
+  height: 3rem;
+  width: 6rem;
+  color: white;
+  margin-top: 3rem;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}

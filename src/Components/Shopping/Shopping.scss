@@ -1,0 +1,28 @@
+.ankara {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  // background-repeat: no-repeat;
+  // background-image: url("/black and white fab.jpg");
+  // background-image: url("/black and white.jpg");
+  // width: 100%;
+  // background-position: center;
+  // height: 100vh;
+}
+.shopp {
+  background-color: rgb(2, 2, 2);
+  padding: 3rem;
+  color: white;
+  // text-align: center;
+  font-size: x-large;
+}
+.shopp:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.shoppp {
+  position: absolute;
+}
